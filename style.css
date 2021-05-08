@@ -18,7 +18,6 @@ body {
     margin: 0;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -28,6 +27,205 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+} 
+
+
+@media screen and (min-width: 600px) {
+
+  
+    .banner {
+        background-color: #48418e;
+        background: linear-gradient(to bottom right, #25133d,#48418e,#f745b3);
+        display: flex;
+    }
+    .btext{
+        flex-grow: 2;
+        padding-left: 30px;
+    }
+    .nazev {
+        color: white;
+        font-size: 70px;
+        font-weight: 400;
+        margin:10px;
+    }
+    
+    .slogan{
+        color:white;
+        font-size: 40px;
+        font-weight: 300;
+        padding-left: 10px;
+        padding-bottom: 50px;
+        margin:0px;
+        }
+    .tlacitko{
+        font-size: 20px;
+        border: 2px groove white;
+        border-radius: 10px;
+        color:white;
+        padding: 20px;
+        margin-right: 20px;
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    
+    .tlacitko:hover {
+        background-color: #48418e;}
+    
+    img{
+        padding-top: 10px;
+    }
+    
+    
+    ul {
+        display: flex;
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .apka{
+        justify-content: flex-start;
+        font-weight: 700;
+    }
+    
+    li{
+        padding:20px;
+        font-size:20px;
+        font-weight:500;
+    }
+    
+    a:hover{
+        background-color: #48418e;
+        color:white;
+    }
+    
+    li:hover{
+        color:white;
+        background-color: #48418e;
+    }
+    
+    .kontakt{
+        display:flex;
+    }
+    .K1 {
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+    }
+    
+    .K1 h2{
+        color:#48418e;
+    }
+    
+    footer {
+        background-color: #25133d;
+        color: white;
+        padding: 1px 0;
+        text-align: center;
+    }
+
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+@media screen and (min-width: 900px) {
+
+    
+.banner {
+    background-color: #48418e;
+    background: linear-gradient(to bottom right, #25133d,#48418e,#f745b3);
+        /*background-image: url("pozadi.jpg");*/
+    /*(https://github.com/tvorimweb-2021-praha-jaro/du-05---superappka-Zuzike/blob/main/images/pozadi.jpg);*/
+    display: flex;
+}
+.btext{
+    flex-grow: 2;
+    padding-left: 30px;
+}
+.nazev {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    margin:10px;
+}
+
+.slogan{
+    color:white;
+    font-size: 40px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin:0px;
+    }
+.tlacitko{
+    font-size: 20px;
+    border: 2px groove white;
+    border-radius: 10px;
+    color:white;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.tlacitko:hover {
+    background-color: #48418e;}
+
+img{
+    padding-top: 10px;
+}
+
+
+ul {
+    display: flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.apka{
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+li{
+    padding:20px;
+    font-size:20px;
+    font-weight:500;
+}
+
+a:hover{
+    background-color: #48418e;
+    color:white;
+}
+
+li:hover{
+    color:white;
+    background-color: #48418e;
+}
+
+.kontakt{
+    display:flex;
+}
+.K1 {
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+}
+
+.K1 h2{
+    color:#48418e;
+}
+
+footer {
+    background-color: #25133d;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+}
